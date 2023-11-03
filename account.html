@@ -55,18 +55,19 @@
               </div>
             </div>
           </div>
-
-          <button
-            class="btn dropdown-toggle ms-3 me-3 text-white"
-            type="button"
-            data-bs-toggle="dropdown"
-            aria-expanded="false"
-          ></button>
-          <ul class="dropdown-menu">
-            <li><a class="dropdown-item" href="#">Registrati</a></li>
-            <li><a class="dropdown-item" href="./profile.html">Profilo</a></li>
-            <li><a class="dropdown-item" href="https://www.netflix.com/it/">Esci</a></li>
-          </ul>
+          <div class="dropdown">
+            <button
+              class="btn dropdown-toggle ms-3 me-3 text-white"
+              type="button"
+              data-bs-toggle="dropdown"
+              aria-expanded="false"
+            ></button>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="#">Registrati</a></li>
+              <li><a class="dropdown-item" href="./profile.html">Profilo</a></li>
+              <li><a class="dropdown-item" href="https://www.netflix.com/it/">Esci</a></li>
+            </ul>
+          </div>
         </div>
       </div>
     </nav>
@@ -87,10 +88,10 @@
               <p class="mt-4"><i class="bi bi-paypal">Paypal </i>admine@school.it</p>
             </div>
 
-            <div class="col-4 pb-3 d-flex flex-column">
-              <a href="#" class="text-secondary text-decoration-none">change account email</a>
-              <a href="#" class="text-secondary text-decoration-none">change password</a>
-              <a href="#" class="text-secondary text-decoration-none">change phone number</a>
+            <div class="col-4 pb-3 d-flex flex-column text-end">
+              <a href="#" class="text-decoration-none">change account email</a>
+              <a href="#" class="text-decoration-none">change password</a>
+              <a href="#" class="text-decoration-none">change phone number</a>
 
               <a href="#" class="text-decoration-none mt-4">Update Info</a>
               <a href="#" class="text-decoration-none">Billing detail</a>
@@ -106,26 +107,50 @@
               <h3 class="text-secondary">Plain details</h3>
             </div>
             <div class="col-4">
-              <p>Premium</p>
+              <p>Premium <i class="bi bi-badge-hd"></i></p>
             </div>
-            <div class="col-4">
+            <div class="col-4 text-end">
               <a href="#" class="text-decoration-none">change plan</a>
             </div>
           </div>
         </div>
         <!-- ----------- -->
         <div class="w-50 m-auto pt-2">
-          <div class="row mb-3 pt-3 pb-3">
+          <div class="row mb-3 pt-3 pb-3 border-bottom border-black">
             <div class="col-4">
               <h3 class="text-secondary">Setting</h3>
             </div>
-            <div class="col-8">
+            <div class="col-8 d-flex flex-column text-end">
               <a href="#" class="text-decoration-none">Parents control</a>
               <a href="#" class="text-decoration-none">Text partecipation</a>
               <a href="#" class="text-decoration-none">Managae download device</a>
               <a href="#" class="text-decoration-none">activate a device</a>
               <a href="#" class="text-decoration-none">recent device streaming activity</a>
               <a href="#" class="text-decoration-none">Sign out all device</a>
+            </div>
+          </div>
+        </div>
+        <!-- --------------- -->
+        <div class="w-50 m-auto pt-1">
+          <div class="row mb-3 pt-3 pb-3 border-bottom border-black">
+            <div class="col">
+              <h3 class="text-secondary">My Profile</h3>
+            </div>
+            <div class="col text-start">
+              <p><i class="bi bi-envelope-paper-fill"></i> Strive Student</p>
+              <div class="mt-4 col d-flex flex-column">
+                <a href="#" class="text-decoration-none">Language</a>
+                <a href="#" class="text-decoration-none">Playback Setting</a>
+                <a href="#" class="text-decoration-none">Subtitle appearance</a>
+              </div>
+            </div>
+            <div class="col text-end d-flex flex-column">
+              <a href="#" class="text-decoration-none">Manage Profiles</a>
+              <a href="#" class="text-decoration-none">Add profile email</a>
+              <div class="mt-4 col d-flex flex-column text-start">
+                <a href="#" class="text-decoration-none">Viewing activity</a>
+                <a href="#" class="text-decoration-none">Ratings</a>
+              </div>
             </div>
           </div>
         </div>
