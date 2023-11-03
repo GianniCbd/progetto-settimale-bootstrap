@@ -1,0 +1,29 @@
+footer {
+  text-align: left;
+
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.icons3 {
+  font-size: 24px;
+
+  margin: 0 10px;
+}
+
+:root {
+  --fs-6: 12px;
+  --fs-7: 22px;
+  --fs-8: 11px;
+}
+
+#copyright {
+  font-size: var(--fs-6);
+}
+
+#leng {
+  font-size: var(--fs-7);
+}
+.check {
+  font-size: var(--fs-8);
+}
